@@ -1,0 +1,55 @@
+header {
+  display: flex;
+  background-color: var(--background);
+  height: 100px;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+
+#logo-himtika {
+  width: 80px;
+  height: 80px;
+}
+
+#text-navbar {
+  font-size: var(--our-main-font-size);
+  margin-left: 10px;
+}
+
+.container-logo-nav {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#container-menu-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-nav {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+#btn-contact {
+  background-color: var(--our-blue);
+  font-size: 25px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,123 @@
+footer {
+  background-color: #ddd;
+  padding: 50px 50px 20px 50px;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.container-footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-contact,
+.footer-menu,
+.footer-news {
+  flex: 1;
+}
+
+.container-img-footer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container-img-footer img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.container-img-footer h1 {
+  font-size: var(--our-main-font-size);
+}
+
+.container-contact-footer p {
+  font-size: 24px;
+  margin: 3px 0;
+}
+
+.footer-menu h1,
+.footer-news h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-menu {
+  width: fit-content;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.container-menu-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+}
+
+.menu-nav-footer {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.menu-nav-footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-news {
+  font-size: 24px;
+  margin-top: 80px;
+}
+
+.footer-news input::placeholder {
+  font-size: 24px;
+}
+
+.footer-news button {
+  font-size: 24px;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-form input {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #bbb;
+  outline: none;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #6ec5ec;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.container-footer-bottom {
+  border-top: solid 2px #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.container-footer-bottom p {
+  font-size: 24px;
+}
+
+.img-sosmed-footer {
+  width: 40px;
+  height: 40px;
+}
